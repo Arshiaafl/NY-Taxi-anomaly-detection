@@ -18,8 +18,8 @@ jobs:
         uses: docker/setup-buildx-action@v1
 
       - name: Build Docker image
-        run: docker build -t NYT .
+        run: docker build -t nyt .
 
       - name: Push Docker image to registry
-        run: docker push NYT
+        run: docker push nyt
 
